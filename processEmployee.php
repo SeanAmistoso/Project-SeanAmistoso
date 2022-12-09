@@ -9,6 +9,6 @@ include("DBcon.php");
 $sql = "INSERT INTO gym_employee(firstname,surname,dateofbirth,salary) VALUES
 ('$fn','$sn','$dob','$sal')";
 
-
+mysqli_query($con,$sql);
 
 ?>
