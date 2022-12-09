@@ -4,5 +4,7 @@ $sn = $_POST['sname'];
 $dob = $_POST['dob'];
 $sal = $_POST['salary'];
 
+include("DBcon.php");
+
 
 ?>
