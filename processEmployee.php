@@ -12,4 +12,5 @@ $sql = "INSERT INTO gym_employee(firstname,surname,dateofbirth,salary) VALUES
 mysqli_query($con,$sql);
 mysqli_close($con);
 
+echo "Employee Inserted";
 ?>
