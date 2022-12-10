@@ -12,7 +12,7 @@ while($row=mysqli_fetch_assoc($result)) {
 	$dob = $row['dateofbirth'];
 	$salary = $row['salary'];
 	
-	echo "$fn, $sn, $dob, $salary<br>";
+	echo "<TR><TD>$fn</TD><TD>$sn</TD><TD>$dob</TD><TD>$salary</TR>";
 }
 echo "</TABLE>";
 
