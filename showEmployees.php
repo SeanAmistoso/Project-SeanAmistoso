@@ -11,6 +11,8 @@ while(mysqli_fetch_assoc($result)) {
 	$sn = $row['surname'];
 	$dob = $row['dateofbirth'];
 	$salary = $row['salary'];
+	
+	echo "$fn, $sn, $dob, $salary<br>";
 }
 
 
