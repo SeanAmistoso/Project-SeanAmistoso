@@ -14,7 +14,7 @@ while($row=mysqli_fetch_assoc($result)) {
 	
 	echo "$fn, $sn, $dob, $salary<br>";
 }
-
+echo "</TABLE>";
 
 mysqli_close($con);
 
