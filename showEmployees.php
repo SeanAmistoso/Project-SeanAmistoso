@@ -4,7 +4,7 @@ include ("DBcon.php");
 
 $sql = "select * from gym_employee";
 $result = mysqli_query($con,$sql);
-
+echo "<TABLE>";
 
 while($row=mysqli_fetch_assoc($result)) {
 	$fn = $row['firstname'];
