@@ -18,6 +18,6 @@ while(mysqli_fetch_assoc($result)) {
 
 mysqli_close($con);
 
-echo "Employee inserted"
+
 
 ?>
