@@ -2,10 +2,10 @@
 
 include ("DBcon.php");
 
-$sql = "select * from gym_employees";
-
-
+$sql = "select * from gym_employee";
 $result = mysqli_query($con,$sql);
+
+
 while($row=mysqli_fetch_assoc($result)) {
 	$fn = $row['firstname'];
 	$sn = $row['surname'];
